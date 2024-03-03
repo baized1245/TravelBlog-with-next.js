@@ -18,10 +18,7 @@ const Footer = () => {
         <div className="py-5 border-b border-gray-300 border-opacity-20 flex justify-between items-center max-md:flex-col max-md:gap-8">
           <div className="flex-1">
             <Link href={"/"}>
-              <h1 className="text-3xl font-extrabold text-light">
-                Explore
-                <span className="text-primary">X</span>
-              </h1>
+              <h1 className="text-3xl font-extrabold text-primary">S.Blog</h1>
             </Link>
           </div>
 
@@ -49,7 +46,7 @@ const Footer = () => {
         </div>
 
         <div className="w-full text-center mt-3 text-sm text-white">
-          <span>All Rights Reserved ExploreX.com</span>
+          <span>All Rights Reserved S.Blog.com</span>
         </div>
       </div>
     </div>
