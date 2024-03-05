@@ -1,7 +1,7 @@
 import Overlay from "@/components/ui/Overlay";
 import Image from "next/image";
-import aboutImg from "../../../public/assets/about.jpg";
-import singnature from "../../../public/assets/signature.png";
+import aboutImg from "../../public/assets/about.jpg";
+import singnature from "../../public/assets/signature.png";
 
 const About = () => {
   return (

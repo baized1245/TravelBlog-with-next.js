@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Overlay from "@/components/ui/Overlay";
 import Button from "@/components/ui/Button";
+import Map from "@/components/ui/Map";
 
 const page = () => {
   return (
@@ -9,6 +10,7 @@ const page = () => {
         <Image
           src="/assets/contact.jpg"
           fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           priority
           alt="contact image"
           className="object-cover"
@@ -60,7 +62,7 @@ const page = () => {
           </div>
         </form>
       </div>
-      {/* <Map /> */}
+      <Map />
     </div>
   );
 };
