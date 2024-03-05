@@ -26,6 +26,7 @@ const page = ({ searchParams }: { searchParams: searchParamsTypes }) => {
       <div className="w-full h-[400px] relative mb-5">
         <Image
           fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           alt="Image for blog"
           src={post.image_path}
           className="object-cover"
